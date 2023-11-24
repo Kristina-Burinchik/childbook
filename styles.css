@@ -1,0 +1,62 @@
+html, body {
+    background-color: darkgrey;
+}
+
+h1 {
+  font-size: 2vw;
+text-transform: uppercase;
+text-align: center;
+color: rgb(44, 44, 44);
+}
+
+.menu {
+margin-left: auto;
+margin-right: auto;
+display: block;
+width: 80%;
+
+}
+
+.menu__list {
+display: inline-block;
+width: 100%;
+margin: 1% 0 0 0;
+}
+
+
+.menu__item {
+display: inline-block;
+width: 24%;
+background-color: rgb(210, 126, 30);
+box-shadow: 0 0.2vw 1px  rgb(31, 30, 30);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1vw;
+   line-height: 30%;
+   
+}
+
+.fa-brands, .fa-google, .fa-solid, .fa-rss {
+    background-color: rgb(66, 65, 65);
+    width: 10%;
+    text-align: center;
+    padding: 1vw;
+ position: relative;
+   
+  
+}
+
+
+ul li a i {
+    font-size: 2vw;
+    float: left;
+    margin-right: 2%;
+}
+
+
+.boxShadow {
+
+}
